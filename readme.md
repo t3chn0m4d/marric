@@ -11,7 +11,9 @@
     background
 ```
 
-``` index.html structure
+```
+index.html structure
+---
 head
   bootstrap.css
   css
@@ -38,7 +40,9 @@ body
     logo, [mail, drbbl, codepen, github], copywrite_me
 ```
 
-``` proposed HEAD
+```
+proposed HEAD
+---
 x bootstrap.css
   css <= major changes
 x fontawesome
@@ -48,7 +52,9 @@ x popper.js
 x bootstrap.js
 ```
 
-``` TODO proposed BODY
+```
+TODO proposed BODY
+---
   background image
   hero
     text, title, button
