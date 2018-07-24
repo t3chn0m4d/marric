@@ -4,13 +4,14 @@
 ```
   index
   css
+  font
   img
     4 social media
     2 logos
     background
 ```
-=2>
-``` index.html
+
+``` index.html structure
 head
   bootstrap.css
   css
@@ -23,35 +24,43 @@ head
 body
   background image
   hero
-    text
-    title
-    button
+    text, title, button
   nav
-    about
-    projects
-    name
-    logo
+    about, projects, name, logo
   about
-    who am i
-    design
-    code
+    who_am_i, design, code
   projects
-    for each [pong, chatone, notepad, painter, pwdgen]
-      title
-      img
-      p
+    pong, chatone, notepad, painter, pwdgen
+      forEach: title, img, p
   skills
-    html
-    js
-    react
-    css
-    c#
-    php
+    html, js, react, css, c#, php
   footer
-    logo
-    row
-      mail
-      drbbl
-      codepen
-      github
-    copywrite me
+    logo, [mail, drbbl, codepen, github], copywrite_me
+```
+
+``` proposed HEAD
+x bootstrap.css
+  css <= major changes
+x fontawesome
+x google code-prettify
+  jquery
+x popper.js
+x bootstrap.js
+```
+
+``` TODO proposed BODY
+  background image
+  hero
+    text, title, button
+  nav
+    about, projects, name, logo
+  about
+    who_am_i, design, code
+  projects
+    forEach: pong, chatone, notepad, painter, pwdgen
+      title, img, p
+  skills
+    html, js, react, css, c#, php
+  footer
+    logo, [mail, drbbl, codepen, github], copywrite_me  
+```
