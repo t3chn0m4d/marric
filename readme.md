@@ -12,7 +12,7 @@
 ```
 
 ```
-index.html structure
+index.html structure current
 ---
 head
   bootstrap.css
