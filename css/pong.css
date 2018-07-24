@@ -1,0 +1,15 @@
+/*=======================fonts=======================*/
+
+@font-face {
+    font-family: 'pongScore';
+    src: url('../fonts/PongScore.ttf');
+}
+
+@font-face {
+    font-family: 'MumboSSK';
+    src: url('../fonts/MumboSSK.ttf');
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600,800);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,100);
+/*=======================/fonts=======================*/
